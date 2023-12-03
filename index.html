@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <div class="form-side">
+        <a href="#" title="Logo" class="logo-text">VDXD</a>
+        <form class = "my-form">
+          <div class = "login-welcome-row"><h1>Create your account &#x1F44F;</h1></div>
+          <div class="socials-row">
+            <a href="#" title="Use Google">
+              <img src = "google logo.png" alt="Google">Sign up with Google
+            </a>
+            <a href="#" title="Use Apple"><img src="apple logo.png" alt="Apple">Sign up with Apple
+            </a>
+          </div>
+          <div class="divider">
+            <div class="divider-line"></div>Or<div class="divider-line"></div>
+          </div>
+          <div class="text-field">
+            <label for="email">Email:
+                <input type="email" id="email" name="email" autocomplete="off" placeholder="Your Email" required>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-12h2v4h-2zm0 6h2v2h-2z"/>
+                </svg>
+            </label>
+          </div>
+          <div class="text-field">
+            <label for="password">Password:
+                <input id="password" type="password" name="password" placeholder="Your Password" title="Minimum 6 characters, at least 1 alphabet and 1 number"
+                       pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-12h2v4h-2zm0 6h2v2h-2z"/>
+                </svg>
+            </label>
+          </div>
+          <div class="text-field">
+            <label for="confirm-password">Repeat Password:
+                <input id="confirm-password" type="password" name="confirm-password" placeholder="Repeat Password" title="Minimum 6 characters, at least 1 alphabet and 1 number"
+                       pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M21 2H3a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 18H3V6h18v14zM8 11h8v2H8zm0 3h8v2H8z"/>
+                </svg>
+            </label>
+          </div>
+          <button class="my-form_button" type="submit">Sign up</button>
+          <div class="my-form_actions">
+            <div class="my-form_row">
+              <span>Did you forget your password?</span>
+              <a href="#" title="Reset Password">Reset Password</a>
+            </div>
+            <div class="my-form_signup">
+              <a href="#" title="Login">Login</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="info-side">
+        <img src="img.jpg" alt="Mock" class="mockup"/>
+        <div class="welcome-message">
+          <h2>Vedant's Sign Up Page!</h2>
+          <p>
+            The best website to sign up!
+            Made by handsome boy vedant!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
